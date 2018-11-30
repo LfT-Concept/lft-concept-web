@@ -7,32 +7,36 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <title>LfT Concept</title>
+
+  <style>
+    body { padding-top: 70px; }
+  </style>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#"><i class="fas fa-code-branch mr-3"></i>LfT Concept</a>
+      <a class="navbar-brand" href="index.html"><i class="fas fa-code-branch mr-3"></i>LfT Concept</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item dropdown mr-3">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Expertise</a>
-              <a class="dropdown-item" href="#">The Team</a>
+              <a class="dropdown-item" href="#expertise">Expertise</a>
+              <a class="dropdown-item" href="#team">The Team</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Portfolio</a>
-              <a class="dropdown-item" href="#">Articles</a>
-              <a class="dropdown-item" href="#">Presentations</a>
+              <a class="dropdown-item" href="#portfolio">Portfolio</a>
+              <a class="dropdown-item" href="#articles">Articles</a>
+              <a class="dropdown-item" href="#presentations">Presentations</a>
             </div>
           </li>
           <form class="form-inline ml-auto mr-3">
@@ -40,14 +44,15 @@
             <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
           </form>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i></a>
+            <a class="nav-link" href=""><i class="fas fa-sign-in-alt"></i></a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container pt-3">
+  <a id="home"></a>
+  <div class="container">
 
     <div class="jumbotron">
       <h1 class="display-4"><i class="fas fa-code-branch mr-4"></i>LfT Concept</h1>
@@ -73,6 +78,46 @@
 
     </div>
 
+  </div>
+
+  <a id="expertise"></a>
+  <div class="container pt-3">
+    <div class="jumbotron">
+      <h1 class="display-4"><i class="fas fa-brain mr-4"></i>Expertise</h1>
+      <p class="lead">We're just good.</p>
+    </div>
+  </div>
+
+  <a id="team"></a>
+  <div class="container pt-3">
+    <div class="jumbotron">
+      <h1 class="display-4"><i class="fas fa-users mr-4"></i>Team</h1>
+      <p class="lead">That's all of us.</p>
+    </div>
+  </div>
+
+  <a id="portfolio"></a>
+  <div class="container pt-3">
+    <div class="jumbotron">
+      <h1 class="display-4"><i class="fas fa-file-invoice mr-4"></i>Portfolio</h1>
+      <p class="lead">Things we've done.</p>
+    </div>
+  </div>
+
+  <a id="articles"></a>
+  <div class="container pt-3">
+    <div class="jumbotron">
+      <h1 class="display-4"><i class="fas fa-pen-fancy mr-4"></i>Articles</h1>
+      <p class="lead">And stuff we've written about.</p>
+    </div>
+  </div>
+
+  <a id="presentations"></a>
+  <div class="container pt-3">
+    <div class="jumbotron">
+      <h1 class="display-4"><i class="fas fa-microphone-alt mr-4"></i>Presentations</h1>
+      <p class="lead">To stuff we've presented.</p>
+    </div>
   </div>
 
   <!-- Optional JavaScript -->
