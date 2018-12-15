@@ -1,0 +1,9 @@
+.slimfit {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-bottom: 1rem;
+    background-color: #eee;
+}
