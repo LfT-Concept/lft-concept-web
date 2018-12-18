@@ -10,8 +10,12 @@
     border-bottom: .25rem solid #ccc;
 }
 
-.card:hover {
-    cursor: pointer;
+.card.card-link:hover {
     background-color: #eff6fd;
     border-bottom-color: #2070b0;
+}
+
+.card.card-link a {
+    color: inherit;
+    text-decoration: none;
 }
