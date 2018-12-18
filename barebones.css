@@ -1,4 +1,4 @@
-.slimfit {
+.container-lft {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -6,4 +6,12 @@
 .card {
     margin-bottom: 1rem;
     background-color: #eee;
+    border: 0;
+    border-bottom: .25rem solid #ccc;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: #eff6fd;
+    border-bottom-color: #2070b0;
 }
