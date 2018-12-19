@@ -1,0 +1,76 @@
+/* colors */
+.container-lft {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.card, .card-metropolitan, .card-circle, .card-bakerloo, .card-dark {
+  margin-bottom: 1rem;
+  background-color: #eeeeee;
+  border: 0;
+  border-bottom: 0.25rem solid #cccccc;
+}
+.card.card-link a, .card-link.card-metropolitan a, .card-link.card-circle a, .card-link.card-bakerloo a, .card-link.card-dark a {
+  color: inherit;
+  text-decoration: none;
+}
+.card.card-link:hover, .card-link.card-metropolitan:hover, .card-link.card-circle:hover, .card-link.card-bakerloo:hover, .card-link.card-dark:hover {
+  background-color: #eff6fd;
+  border-bottom-color: #2070b0;
+}
+.card.card-link:hover .card-body, .card-link.card-metropolitan:hover .card-body, .card-link.card-circle:hover .card-body, .card-link.card-bakerloo:hover .card-body, .card-link.card-dark:hover .card-body {
+  border-right: 2rem solid #2070b0;
+}
+.card.card-link .card-body, .card-link.card-metropolitan .card-body, .card-link.card-circle .card-body, .card-link.card-bakerloo .card-body, .card-link.card-dark .card-body {
+  border-right: 2rem solid #eeeeee;
+}
+
+.card-dark {
+  color: #eff6fd;
+  background-color: #2d3039;
+  border-bottom-color: #121315;
+}
+.card-dark.card-link:hover {
+  background-color: #121315;
+}
+.card-dark.card-link .card-body {
+  border-right-color: #2d3039;
+}
+
+.card-bakerloo {
+  color: #eff6fd;
+  background-color: #894e24;
+  border-bottom-color: #633717;
+}
+.card-bakerloo.card-link:hover {
+  background-color: #633717;
+}
+.card-bakerloo.card-link .card-body {
+  border-right-color: #894e24;
+}
+
+.card-circle {
+  color: #000000;
+  background-color: #ffce00;
+  border-bottom-color: #b99709;
+}
+.card-circle.card-link:hover {
+  background-color: #b99709;
+}
+.card-circle.card-link .card-body {
+  border-right-color: #ffce00;
+}
+
+.card-metropolitan {
+  color: #eff6fd;
+  background-color: #751056;
+  border-bottom-color: #3e092e;
+}
+.card-metropolitan.card-link:hover {
+  background-color: #3e092e;
+}
+.card-metropolitan.card-link .card-body {
+  border-right-color: #751056;
+}
+
+/*# sourceMappingURL=barebones.css%23.map */

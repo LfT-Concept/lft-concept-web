@@ -1,21 +1,220 @@
+/* colors */
 .container-lft {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-.card {
-    margin-bottom: 1rem;
-    background-color: #eee;
-    border: 0;
-    border-bottom: .25rem solid #ccc;
+.card, .card-tflrail, .card-tram, .card-dlr, .card-overground, .card-waterloocity, .card-victoria, .card-piccadilly, .card-northern, .card-metropolitan, .card-jubilee, .card-hammersmithcity, .card-district, .card-circle, .card-central, .card-bakerloo, .card-dark {
+  margin-bottom: 1rem;
+  background-color: #eeeeee;
+  border: 0;
+  border-bottom: 0.25rem solid #cccccc;
+}
+.card.card-link a, .card-link.card-tflrail a, .card-link.card-tram a, .card-link.card-dlr a, .card-link.card-overground a, .card-link.card-waterloocity a, .card-link.card-victoria a, .card-link.card-piccadilly a, .card-link.card-northern a, .card-link.card-metropolitan a, .card-link.card-jubilee a, .card-link.card-hammersmithcity a, .card-link.card-district a, .card-link.card-circle a, .card-link.card-central a, .card-link.card-bakerloo a, .card-link.card-dark a {
+  color: inherit;
+  text-decoration: none;
+}
+.card.card-link:hover, .card-link.card-tflrail:hover, .card-link.card-tram:hover, .card-link.card-dlr:hover, .card-link.card-overground:hover, .card-link.card-waterloocity:hover, .card-link.card-victoria:hover, .card-link.card-piccadilly:hover, .card-link.card-northern:hover, .card-link.card-metropolitan:hover, .card-link.card-jubilee:hover, .card-link.card-hammersmithcity:hover, .card-link.card-district:hover, .card-link.card-circle:hover, .card-link.card-central:hover, .card-link.card-bakerloo:hover, .card-link.card-dark:hover {
+  background-color: #eff6fd;
+  border-bottom-color: #2070b0;
+}
+.card.card-link:hover .card-body, .card-link.card-tflrail:hover .card-body, .card-link.card-tram:hover .card-body, .card-link.card-dlr:hover .card-body, .card-link.card-overground:hover .card-body, .card-link.card-waterloocity:hover .card-body, .card-link.card-victoria:hover .card-body, .card-link.card-piccadilly:hover .card-body, .card-link.card-northern:hover .card-body, .card-link.card-metropolitan:hover .card-body, .card-link.card-jubilee:hover .card-body, .card-link.card-hammersmithcity:hover .card-body, .card-link.card-district:hover .card-body, .card-link.card-circle:hover .card-body, .card-link.card-central:hover .card-body, .card-link.card-bakerloo:hover .card-body, .card-link.card-dark:hover .card-body {
+  border-right: 2rem solid #2070b0;
+}
+.card.card-link .card-body, .card-link.card-tflrail .card-body, .card-link.card-tram .card-body, .card-link.card-dlr .card-body, .card-link.card-overground .card-body, .card-link.card-waterloocity .card-body, .card-link.card-victoria .card-body, .card-link.card-piccadilly .card-body, .card-link.card-northern .card-body, .card-link.card-metropolitan .card-body, .card-link.card-jubilee .card-body, .card-link.card-hammersmithcity .card-body, .card-link.card-district .card-body, .card-link.card-circle .card-body, .card-link.card-central .card-body, .card-link.card-bakerloo .card-body, .card-link.card-dark .card-body {
+  border-right: 2rem solid #eeeeee;
 }
 
-.card.card-link:hover {
-    background-color: #eff6fd;
-    border-bottom-color: #2070b0;
+.card-dark {
+  color: #eff6fd;
+  background-color: #2d3039;
+  border-bottom-color: #121315;
+}
+.card-dark.card-link:hover {
+  background-color: #121315;
+}
+.card-dark.card-link .card-body {
+  border-right-color: #2d3039;
 }
 
-.card.card-link a {
-    color: inherit;
-    text-decoration: none;
+.card-bakerloo {
+  color: #eff6fd;
+  background-color: #894e24;
+  border-bottom-color: #633717;
 }
+.card-bakerloo.card-link:hover {
+  background-color: #633717;
+}
+.card-bakerloo.card-link .card-body {
+  border-right-color: #894e24;
+}
+
+.card-central {
+  color: #eff6fd;
+  background-color: #dc241f;
+  border-bottom-color: #a71F1b;
+}
+.card-central.card-link:hover {
+  background-color: #a71F1b;
+}
+.card-central.card-link .card-body {
+  border-right-color: #dc241f;
+}
+
+.card-circle {
+  color: #000000;
+  background-color: #ffce00;
+  border-bottom-color: #b99709;
+}
+.card-circle.card-link:hover {
+  background-color: #b99709;
+}
+.card-circle.card-link .card-body {
+  border-right-color: #ffce00;
+}
+
+.card-district {
+  color: #eff6fd;
+  background-color: #007229;
+  border-bottom-color: #094920;
+}
+.card-district.card-link:hover {
+  background-color: #094920;
+}
+.card-district.card-link .card-body {
+  border-right-color: #007229;
+}
+
+.card-hammersmithcity {
+  color: #000000;
+  background-color: #d799af;
+  border-bottom-color: #cb3a6d;
+}
+.card-hammersmithcity.card-link:hover {
+  background-color: #cb3a6d;
+}
+.card-hammersmithcity.card-link .card-body {
+  border-right-color: #d799af;
+}
+
+.card-jubilee {
+  color: #eff6fd;
+  background-color: #6a7278;
+  border-bottom-color: #383b3d;
+}
+.card-jubilee.card-link:hover {
+  background-color: #383b3d;
+}
+.card-jubilee.card-link .card-body {
+  border-right-color: #6a7278;
+}
+
+.card-metropolitan {
+  color: #eff6fd;
+  background-color: #751056;
+  border-bottom-color: #3e092e;
+}
+.card-metropolitan.card-link:hover {
+  background-color: #3e092e;
+}
+.card-metropolitan.card-link .card-body {
+  border-right-color: #751056;
+}
+
+.card-northern {
+  color: #eff6fd;
+  background-color: #000000;
+  border-bottom-color: #353635;
+}
+.card-northern.card-link:hover {
+  background-color: #353635;
+}
+.card-northern.card-link .card-body {
+  border-right-color: #000000;
+}
+
+.card-piccadilly {
+  color: #eff6fd;
+  background-color: #0019a8;
+  border-bottom-color: #020931;
+}
+.card-piccadilly.card-link:hover {
+  background-color: #020931;
+}
+.card-piccadilly.card-link .card-body {
+  border-right-color: #0019a8;
+}
+
+.card-victoria {
+  color: #eff6fd;
+  background-color: #00a0e2;
+  border-bottom-color: #04435d;
+}
+.card-victoria.card-link:hover {
+  background-color: #04435d;
+}
+.card-victoria.card-link .card-body {
+  border-right-color: #00a0e2;
+}
+
+.card-waterloocity {
+  color: #000000;
+  background-color: #76d0bd;
+  border-bottom-color: #368776;
+}
+.card-waterloocity.card-link:hover {
+  background-color: #368776;
+}
+.card-waterloocity.card-link .card-body {
+  border-right-color: #76d0bd;
+}
+
+.card-overground {
+  color: #eff6fd;
+  background-color: #e86a10;
+  border-bottom-color: #9c480d;
+}
+.card-overground.card-link:hover {
+  background-color: #9c480d;
+}
+.card-overground.card-link .card-body {
+  border-right-color: #e86a10;
+}
+
+.card-dlr {
+  color: #000000;
+  background-color: #00afad;
+  border-bottom-color: #044e4d;
+}
+.card-dlr.card-link:hover {
+  background-color: #044e4d;
+}
+.card-dlr.card-link .card-body {
+  border-right-color: #00afad;
+}
+
+.card-tram {
+  color: #000000;
+  background-color: #66cc00;
+  border-bottom-color: #2b5205;
+}
+.card-tram.card-link:hover {
+  background-color: #2b5205;
+}
+.card-tram.card-link .card-body {
+  border-right-color: #66cc00;
+}
+
+.card-tflrail {
+  color: #eff6fd;
+  background-color: #0019a8;
+  border-bottom-color: #020931;
+}
+.card-tflrail.card-link:hover {
+  background-color: #020931;
+}
+.card-tflrail.card-link .card-body {
+  border-right-color: #0019a8;
+}
+
+/*# sourceMappingURL=barebones.css.map */
