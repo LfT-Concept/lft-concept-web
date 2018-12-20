@@ -1,4 +1,19 @@
 /* colors */
+h1 {
+  padding: 0.5rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  border-bottom: 0.25rem solid #cccccc;
+  background-color: #eeeeee;
+  color: #2d3039;
+}
+h1.h1-dark {
+  border-bottom-color: #121315;
+  background-color: #2d3039;
+  color: #eeeeee;
+}
+
 .container-lft {
   max-width: 1140px;
   margin: 0 auto;
@@ -215,6 +230,25 @@
 }
 .card-tflrail.card-link .card-body {
   border-right-color: #0019a8;
+}
+
+.banner-background {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-bottom: -400px;
+  top: 57px;
+  left: 0;
+  width: 100%;
+}
+
+.hm-gradient {
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.darken-grey-text {
+  color: #2E2E2E;
 }
 
 /*# sourceMappingURL=barebones.css.map */

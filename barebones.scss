@@ -56,6 +56,21 @@ $tram-dark: #2b5205;
 $tflrail: #0019a8;
 $tflrail-dark: #020931;
 
+h1 {
+  padding: 0.5rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  border-radius: .25rem;
+  border-bottom: .25rem solid $silver;
+  background-color: $gallery;
+  color: $charade;
+  &.h1-dark {
+    border-bottom-color: $woodsmoke;
+    background-color: $charade;
+    color: $gallery;
+  }
+}
+
 .container-lft {
   max-width: 1140px;
   margin: 0 auto;
@@ -66,23 +81,18 @@ $tflrail-dark: #020931;
   background-color: $gallery;
   border: 0;
   border-bottom: .25rem solid $silver;
-
   &.card-link {
-    
     a {
       color: inherit;
       text-decoration: none;
     }
-
     &:hover {
       background-color: $selago;
       border-bottom-color: $matisse;
-
       .card-body {
         border-right: 2rem solid $matisse;
       }
     }
-
     .card-body {
       border-right: 2rem solid $gallery;
     }
@@ -94,13 +104,10 @@ $tflrail-dark: #020931;
   color: $lightside;
   background-color:$charade;
   border-bottom-color: $woodsmoke;
-
   &.card-link {
-
     &:hover {
       background-color: $woodsmoke;
     }
-
     .card-body {
       border-right-color: $charade;
     }
@@ -331,3 +338,25 @@ $tflrail-dark: #020931;
     }
   }
 }
+
+.banner-background {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-bottom: -400px;
+  top: 57px;
+  left: 0;
+  width: 100%;
+}
+
+.banner-content {
+  // nothing to see here
+}
+
+// .hm-gradient {
+//   background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+// }
+// .darken-grey-text {
+//   color: #2E2E2E;
+// }
