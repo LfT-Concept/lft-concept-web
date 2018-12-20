@@ -61,11 +61,14 @@ h1 {
   display: inline-block;
   margin-bottom: 1rem;
   border-radius: .25rem;
-  border-bottom: .25rem solid $silver;
-  background-color: $gallery;
-  color: $charade;
+  border-bottom: .25rem;
+  &.h1-light {
+    border-bottom: .25rem solid $silver;
+    background-color: $gallery;
+    color: $charade;
+  }
   &.h1-dark {
-    border-bottom-color: $woodsmoke;
+    border-bottom: .25rem solid $woodsmoke;
     background-color: $charade;
     color: $gallery;
   }

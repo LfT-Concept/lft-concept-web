@@ -4,12 +4,15 @@ h1 {
   display: inline-block;
   margin-bottom: 1rem;
   border-radius: 0.25rem;
+  border-bottom: 0.25rem;
+}
+h1.h1-light {
   border-bottom: 0.25rem solid #cccccc;
   background-color: #eeeeee;
   color: #2d3039;
 }
 h1.h1-dark {
-  border-bottom-color: #121315;
+  border-bottom: 0.25rem solid #121315;
   background-color: #2d3039;
   color: #eeeeee;
 }
@@ -241,14 +244,6 @@ h1.h1-dark {
   top: 57px;
   left: 0;
   width: 100%;
-}
-
-.hm-gradient {
-  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
-}
-
-.darken-grey-text {
-  color: #2E2E2E;
 }
 
 /*# sourceMappingURL=barebones.css.map */
