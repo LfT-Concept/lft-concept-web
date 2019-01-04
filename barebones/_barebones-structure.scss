@@ -61,6 +61,10 @@ ul.links {
       text-decoration: none;
     }
   }
+  &.inline li {
+    display: inline;
+    padding-right: 1rem;
+  }
 }
 
 .footer {
@@ -72,7 +76,10 @@ ul.links {
   hr {
     background-color: $gallery;
   }
-  .footer-copyright {
+  &.footer-copyright {
     background-color: $charade;
+    a {
+      color: $downy;
+    }
   }
 }
