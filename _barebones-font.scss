@@ -1,0 +1,30 @@
+/* Font */
+
+@font-face {
+  font-family: johnston100-regular;
+  src: url('fonts/EOT/Johnston100W03-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('fonts/WOFF2/Johnston100W03-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('fonts/WOFF/Johnston100W03-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('fonts/TTF/Johnston100W03-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('fonts/SVG/Johnston100W03-Regular.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: johnston100-medium;
+  src: url('fonts/EOT/Johnston100W03-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('fonts/WOFF2/Johnston100W03-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+  url('fonts/WOFF/Johnston100W03-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+  url('fonts/TTF/Johnston100W03-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('fonts/SVG/Johnston100W03-Medium.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: johnston100-light;
+  src: url('fonts/EOT/Johnston100W03-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('fonts/WOFF2/Johnston100W03-Light.woff2') format('woff2'), /* Super Modern Browsers */
+  url('fonts/WOFF/Johnston100W03-Light.woff') format('woff'), /* Pretty Modern Browsers */
+  url('fonts/TTF/Johnston100W03-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('fonts/SVG/Johnston100W03-Light.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+}

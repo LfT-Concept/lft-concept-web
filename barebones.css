@@ -1,7 +1,24 @@
 /* Scss Document */
 /* Imports */
+/* Font */
+@font-face {
+  font-family: johnston100-regular;
+  src: url("fonts/EOT/Johnston100W03-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/WOFF2/Johnston100W03-Regular.woff2") format("woff2"), url("fonts/WOFF/Johnston100W03-Regular.woff") format("woff"), url("fonts/TTF/Johnston100W03-Regular.ttf") format("truetype"), url("fonts/SVG/Johnston100W03-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: johnston100-medium;
+  src: url("fonts/EOT/Johnston100W03-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/WOFF2/Johnston100W03-Medium.woff2") format("woff2"), url("fonts/WOFF/Johnston100W03-Medium.woff") format("woff"), url("fonts/TTF/Johnston100W03-Medium.ttf") format("truetype"), url("fonts/SVG/Johnston100W03-Medium.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: johnston100-light;
+  src: url("fonts/EOT/Johnston100W03-Light.eot?#iefix") format("embedded-opentype"), url("fonts/WOFF2/Johnston100W03-Light.woff2") format("woff2"), url("fonts/WOFF/Johnston100W03-Light.woff") format("woff"), url("fonts/TTF/Johnston100W03-Light.ttf") format("truetype"), url("fonts/SVG/Johnston100W03-Light.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
 .barebones {
   /* colors */ }
+  .barebones * {
+    font-family: johnston100-light, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
+  .barebones h1, .barebones h2, .barebones h3, .barebones h4, .barebones h5, .barebones h6 {
+    font-family: johnston100-medium, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
   .barebones h1 {
     padding: 0.5rem;
     display: inline-block;
