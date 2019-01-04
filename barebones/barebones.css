@@ -16,9 +16,9 @@
 .barebones {
   /* colors */ }
   .barebones * {
-    font-family: johnston100-light, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
+    font-family: johnston100-light, "Helvetica Neue", Helvetica, Arial, "sans-serif", "Font Awesome 5 Free"; }
   .barebones h1, .barebones h2, .barebones h3, .barebones h4, .barebones h5, .barebones h6 {
-    font-family: johnston100-medium, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
+    font-family: johnston100-medium, "Helvetica Neue", Helvetica, Arial, "sans-serif", "Font Awesome 5 Free"; }
   .barebones h1 {
     padding: 0.5rem;
     display: inline-block;
