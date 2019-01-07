@@ -4,3 +4,75 @@
 .nav-link:hover{ background: #f4f4f4; color: #f97300; }
 .navbar-collapse{ justify-content: flex-end;}
 .navbar-toggler{  background:#fff !important;}
+
+.navbar-collapse{
+  justify-content: flex-end;
+ }
+
+.bg-dark {
+  background-color:#343a40!important
+  }
+  .bg-primary{
+  background-color:#007bff!important
+  }
+
+/*header style*/
+.header {
+  background-image: url('../images/lukas-blazek-320606-unsplash.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+ }
+
+ .overlay{
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.79);
+ }
+
+ .description{
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+}
+.description h1{
+color:#F97300 ;
+}
+.description p{
+color:#666;
+font-size: 20px;
+width: 50%;
+line-height: 1.5;
+}
+.description button{
+border:1px  solid #F97300;
+background:#F97300;
+color:#fff;
+}
+
+.about img{
+  height: 100%;
+     width: 100%;
+     border-radius: 50%
+ }
+ .about span{
+  display: block;
+  color: #888;
+  position: absolute;
+  left: 115px;
+ }
+ .about .desc{
+  padding: 2em;
+  border-left:4px solid #10828C;
+ }
+ .about .desc h3{
+  color: #10828C;
+ }
+ .about .desc p{
+  line-height:2;
+  color:#888;
+ }
