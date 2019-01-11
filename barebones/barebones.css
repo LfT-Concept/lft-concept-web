@@ -13,23 +13,29 @@
   font-family: johnston100-light;
   src: url("fonts/EOT/Johnston100W03-Light.eot?#iefix") format("embedded-opentype"), url("fonts/WOFF2/Johnston100W03-Light.woff2") format("woff2"), url("fonts/WOFF/Johnston100W03-Light.woff") format("woff"), url("fonts/TTF/Johnston100W03-Light.ttf") format("truetype"), url("fonts/SVG/Johnston100W03-Light.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
+body {
+  font-family: johnston100-light, "Helvetica Neue", Helvetica, Arial, "sans-serif", "Font `Awesome 5 Free" !important; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: johnston100-medium, "Helvetica Neue", Helvetica, Arial, "sans-serif", "Font `Awesome 5 Free" !important; }
+
 .barebones {
   /* colors */ }
-  .barebones * {
-    font-family: johnston100-light, "Helvetica Neue", Helvetica, Arial, "sans-serif", "Font Awesome 5 Free"; }
-  .barebones h1, .barebones h2, .barebones h3, .barebones h4, .barebones h5, .barebones h6 {
-    font-family: johnston100-medium, "Helvetica Neue", Helvetica, Arial, "sans-serif", "Font Awesome 5 Free"; }
-  .barebones h1 {
+  .barebones .h1-standard {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    padding-top: 1rem;
+    margin-bottom: 1rem; }
+  .barebones .h1-highlight {
     padding: 0.5rem;
     display: inline-block;
     margin-bottom: 1rem;
     border-radius: .25rem;
     border-bottom: .25rem; }
-    .barebones h1.h1-light {
+    .barebones .h1-highlight.h1-light {
       border-bottom: 0.25rem solid #cccccc;
       background-color: #eeeeee;
       color: #2d3039; }
-    .barebones h1.h1-dark {
+    .barebones .h1-highlight.h1-dark {
       border-bottom: 0.25rem solid #121315;
       background-color: #2d3039;
       color: #eeeeee; }
@@ -70,12 +76,49 @@
   .barebones .form-control-help {
     margin-top: 0rem;
     margin-bottom: .25rem; }
+  .barebones h1[class*="icon-"] {
+    padding-right: 5rem;
+    position: relative; }
+    .barebones h1[class*="icon-"]:after {
+      margin-top: -.5rem;
+      position: absolute;
+      right: 1rem; }
+  .barebones h1.icon-buses:after {
+    content: url(images/icons/buses.png); }
+  .barebones h1.icon-cc:after {
+    content: url(images/icons/cc.png); }
+  .barebones h1.icon-dlr:after {
+    content: url(images/icons/dlr.png); }
+  .barebones h1.icon-lez:after {
+    content: url(images/icons/lez.png); }
+  .barebones h1.icon-tfl:after {
+    content: url(images/icons/tfl.png); }
+  .barebones h1.icon-tram:after {
+    content: url(images/icons/tram.png); }
+  .barebones h1.icon-tube:after {
+    content: url(images/icons/tube.png); }
+  .barebones .list-group-item a[class*="icon-"] {
+    position: relative;
+    width: 100% !important;
+    display: block !important; }
+    .barebones .list-group-item a[class*="icon-"]:after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      position: absolute;
+      right: 0rem; }
+  .barebones .list-group-item a.icon-internal:after {
+    content: "\f105";
+    right: .4rem; }
+  .barebones .list-group-item a.icon-external:after {
+    content: "\f35d"; }
+  .barebones .list-group-item a.icon-download:after {
+    content: "\f019";
+    right: .2rem; }
   .barebones .alert {
     border-left-width: 0.45rem; }
   .barebones .card, .barebones .card-dark, .barebones .card-bakerloo, .barebones .card-central, .barebones .card-circle, .barebones .card-district, .barebones .card-hammersmithcity, .barebones .card-jubilee, .barebones .card-metropolitan, .barebones .card-northern, .barebones .card-piccadilly, .barebones .card-victoria, .barebones .card-waterloocity, .barebones .card-overground, .barebones .card-dlr, .barebones .card-tram, .barebones .card-tflrail {
     margin-bottom: 1rem;
     background-color: #eeeeee;
-    border: 0;
     border-bottom: 0.25rem solid #cccccc; }
     .barebones .card.card-link a, .barebones .card-link.card-dark a, .barebones .card-link.card-bakerloo a, .barebones .card-link.card-central a, .barebones .card-link.card-circle a, .barebones .card-link.card-district a, .barebones .card-link.card-hammersmithcity a, .barebones .card-link.card-jubilee a, .barebones .card-link.card-metropolitan a, .barebones .card-link.card-northern a, .barebones .card-link.card-piccadilly a, .barebones .card-link.card-victoria a, .barebones .card-link.card-waterloocity a, .barebones .card-link.card-overground a, .barebones .card-link.card-dlr a, .barebones .card-link.card-tram a, .barebones .card-link.card-tflrail a {
       color: inherit;
