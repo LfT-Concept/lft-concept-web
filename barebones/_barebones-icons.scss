@@ -24,4 +24,25 @@ h1 {
   &.icon-tube:after{ content:url(images/icons/tube.png); }
 }
 
+// allows characters to be displayed at end of list group items as per current design
+.list-group-item a[class*="icon-"] {
+  position: relative;
+  width: 100%!important;
+  display: block!important;
+
+  &:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 0rem;
+  }
+}
+
+// needs right adjustment for each specific icon to keep in centre with each other
+.list-group-item a {
+  &.icon-internal:after { content: "\f105"; right: .4rem; }
+  &.icon-external:after { content: "\f35d";  }
+  &.icon-download:after { content: "\f019"; right: .2rem;  }
+}
+
 
