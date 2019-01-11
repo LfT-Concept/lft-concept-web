@@ -1,12 +1,10 @@
-* {
-  font-family: johnston100-light, "Helvetica Neue", Helvetica, Arial, "sans-serif", "Font Awesome 5 Free";
+.h1-standard {
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  padding-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: johnston100-medium, "Helvetica Neue", Helvetica, Arial, "sans-serif", "Font Awesome 5 Free";
-}
-
-h1 {
+.h1-highlight {
   padding: 0.5rem;
   display: inline-block;
   margin-bottom: 1rem;
@@ -40,15 +38,8 @@ h1 {
   width: 100%;
 }
 
-.banner-content {
-  // nothing to see here
-}
-
-// .hm-gradient {
-//   background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
-// }
-// .darken-grey-text {
-//   color: #2E2E2E;
+// a {
+//   color: $matisse;
 // }
 
 ul.links {
