@@ -1,12 +1,1 @@
-
-
-
-/* import the necessary Bootstrap files */
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-
-/* make changes to the !default Bootstrap variables */    
-$card-columns-count: 2;
-
-/* finally, import Bootstrap to set the changes! */
-@import "../node_modules/bootstrap/scss/bootstrap";
+// removal all customisation
