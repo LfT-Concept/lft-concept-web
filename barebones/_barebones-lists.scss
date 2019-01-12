@@ -1,0 +1,44 @@
+// list group pattern is display a block with link (or not)
+// allows characters to be displayed at end of list group items as per current design
+.list-group-item {
+  pointer-events: none;
+
+  &:hover {
+    background-color: $selago;
+  }
+
+  a {
+    pointer-events: auto;
+    position: relative;
+    width: 100%!important;
+    display: block!important;
+    color: $matisse;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  a[class*="icon-"] {
+  
+    &:after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      position: absolute;
+      right: 0rem;
+    }
+
+    // span is required to provide spacing
+    span {
+      padding-right: 2rem;
+    }
+  }  
+
+  a {
+    &.icon-internal:after { content: "\f105"; right: .4rem; }
+    &.icon-external:after { content: "\f35d";  }
+    &.icon-download:after { content: "\f019"; right: .2rem;  }
+  }
+}
+
+
