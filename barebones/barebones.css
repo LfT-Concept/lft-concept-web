@@ -21,21 +21,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .barebones {
   /* colors */ }
-  .barebones .h1-standard {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  .barebones .h-standard {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding-top: 1rem;
     margin-bottom: 1rem; }
-  .barebones .h1-highlight {
-    padding: 0.5rem;
-    display: inline-block;
+  .barebones .h-highlight {
+    padding: 1rem 1.5rem;
     margin-bottom: 1rem;
     border-radius: .25rem;
     border-bottom: .25rem; }
-    .barebones .h1-highlight.h1-light {
+    .barebones .h-highlight.h-light {
       border-bottom: 0.25rem solid #cccccc;
       background-color: #eeeeee;
       color: #2d3039; }
-    .barebones .h1-highlight.h1-dark {
+    .barebones .h-highlight.h-dark {
       border-bottom: 0.25rem solid #121315;
       background-color: #2d3039;
       color: #eeeeee; }
@@ -97,15 +96,21 @@ h1, h2, h3, h4, h5, h6 {
     content: url(images/icons/tram.png); }
   .barebones h1.icon-tube:after {
     content: url(images/icons/tube.png); }
-  .barebones .list-group-item a[class*="icon-"] {
-    position: relative;
-    width: 100% !important;
-    display: block !important; }
-    .barebones .list-group-item a[class*="icon-"]:after {
-      font-family: "Font Awesome 5 Free";
-      font-weight: 900;
-      position: absolute;
-      right: 0rem; }
+  .barebones .list-group-item {
+    pointer-events: none; }
+    .barebones .list-group-item:hover {
+      background-color: #eff6fd; }
+    .barebones .list-group-item a {
+      pointer-events: auto; }
+    .barebones .list-group-item a[class*="icon-"] {
+      position: relative;
+      width: 100% !important;
+      display: block !important; }
+      .barebones .list-group-item a[class*="icon-"]:after {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        position: absolute;
+        right: 0rem; }
   .barebones .list-group-item a.icon-internal:after {
     content: "\f105";
     right: .4rem; }
