@@ -17,7 +17,7 @@ body {
   font-family: johnston100-light, "Helvetica Neue", Helvetica, Arial, "sans-serif", "Font `Awesome 5 Free" !important; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: johnston100-medium, "Helvetica Neue", Helvetica, Arial, "sans-serif", "Font `Awesome 5 Free" !important; }
+  font-family: johnston100-regular, "Helvetica Neue", Helvetica, Arial, "sans-serif", "Font `Awesome 5 Free" !important; }
 
 .barebones {
   /* colors */ }
@@ -101,24 +101,25 @@ h1, h2, h3, h4, h5, h6 {
     .barebones .list-group-item:hover {
       background-color: #eff6fd; }
     .barebones .list-group-item a {
-      pointer-events: auto; }
-    .barebones .list-group-item a[class*="icon-"] {
+      pointer-events: auto;
       position: relative;
       width: 100% !important;
       display: block !important; }
-      .barebones .list-group-item a[class*="icon-"]:after {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        position: absolute;
-        right: 0rem; }
-  .barebones .list-group-item a.icon-internal:after {
-    content: "\f105";
-    right: .4rem; }
-  .barebones .list-group-item a.icon-external:after {
-    content: "\f35d"; }
-  .barebones .list-group-item a.icon-download:after {
-    content: "\f019";
-    right: .2rem; }
+    .barebones .list-group-item a[class*="icon-"]:after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      position: absolute;
+      right: 0rem; }
+    .barebones .list-group-item a[class*="icon-"] span {
+      padding-right: 2rem; }
+    .barebones .list-group-item a.icon-internal:after {
+      content: "\f105";
+      right: .4rem; }
+    .barebones .list-group-item a.icon-external:after {
+      content: "\f35d"; }
+    .barebones .list-group-item a.icon-download:after {
+      content: "\f019";
+      right: .2rem; }
   .barebones .alert {
     border-left-width: 0.45rem; }
   .barebones .card, .barebones .card-dark, .barebones .card-bakerloo, .barebones .card-central, .barebones .card-circle, .barebones .card-district, .barebones .card-hammersmithcity, .barebones .card-jubilee, .barebones .card-metropolitan, .barebones .card-northern, .barebones .card-piccadilly, .barebones .card-victoria, .barebones .card-waterloocity, .barebones .card-overground, .barebones .card-dlr, .barebones .card-tram, .barebones .card-tflrail {
