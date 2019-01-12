@@ -14,8 +14,8 @@
 
 <body class="barebones">
 
-  <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-    <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid container-lft">
       <a class="navbar-brand" href="index.html"><i class="fas fa-code-branch mr-3"></i>LfT Concept</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,10 +23,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="journeyplanner.html" class="nav-link">Plan a journey</a>
+            <a href="journeyplanner.html" class="nav-link">Journey Planner</a>
           </li>
           <li class="nav-item">
-            <a href="status.html" class="nav-link">Status updates</a>
+            <a href="status.html" class="nav-link">Status</a>
           </li>
           <li class="nav-item">
             <a href="maps.html" class="nav-link">Maps</a>
@@ -35,7 +35,7 @@
             <a href="fares.html" class="nav-link">Fares</a>
           </li>
           <li class="nav-item">
-            <a href="help.html" class="nav-link">Help & contacts</a>
+            <a href="help.html" class="nav-link">Help</a>
           </li>
           <li class="nav-item dropdown mr-3">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -51,8 +51,12 @@
             </div>
           </li>
           <form class="form-inline ml-auto mr-3">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+            <div class="input-group minw-12">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Text to search site for" aria-describedby="search-button">
+              <div class="input-group-append">
+                <span class="input-group-text" id="search-button"><a href="#">Search</a></span>
+              </div>
+            </div>
           </form>
           <li class="nav-item">
             <a class="nav-link" href=""><i class="fas fa-sign-in-alt"></i></a>
@@ -170,32 +174,32 @@
         </div>
         <div class="col-12 col-lg-4">
           <div class="row">
-              <div class="col-12 col-sm-6 col-lg-12">
-                  <h5 class="h-highlight h-dark">Car clubs</h5>
-                  <div class="card">
-                    <div class="card-body">
-                      <h4 class="card-title">Blah Ad</h4>
-                    </div>
-                  </div>
-                </div>
-              <div class="col-12 col-sm-6 col-lg-12">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Related websites</h4>
-                    <ul class="list-group">
-                      <li class="list-group-item"><a href="#" class="icon-external">Blue City</a></li>
-                      <li class="list-group-item"><a href="#" class="icon-external">Co-wheels</a></li>
-                      <li class="list-group-item"><a href="#" class="icon-external">DriveNow</a></li>
-                      <li class="list-group-item"><a href="#" class="icon-external">E-car club</a></li>
-                      <li class="list-group-item"><a href="#" class="icon-external">Enterprise car club</a></li>
-                      <li class="list-group-item"><a href="#" class="icon-external">Hertz 24/7</a></li>
-                      <li class="list-group-item"><a href="#" class="icon-external">Ubeeqo Car Club</a></li>
-                      <li class="list-group-item"><a href="#" class="icon-external">Zipcar</a></li>
-                      <li class="list-group-item"><a href="#" class="icon-external">British Vehicle Rental and Leasing Association (BVLRA)</a></li>
-                    </ul>
-                  </div>
+            <div class="col-12 col-sm-6 col-lg-12">
+              <h5 class="h-highlight h-dark">Car clubs</h5>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Blah Ad</h4>
                 </div>
               </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Related websites</h4>
+                  <ul class="list-group">
+                    <li class="list-group-item"><a href="#" class="icon-external">Blue City</a></li>
+                    <li class="list-group-item"><a href="#" class="icon-external">Co-wheels</a></li>
+                    <li class="list-group-item"><a href="#" class="icon-external">DriveNow</a></li>
+                    <li class="list-group-item"><a href="#" class="icon-external">E-car club</a></li>
+                    <li class="list-group-item"><a href="#" class="icon-external">Enterprise car club</a></li>
+                    <li class="list-group-item"><a href="#" class="icon-external">Hertz 24/7</a></li>
+                    <li class="list-group-item"><a href="#" class="icon-external">Ubeeqo Car Club</a></li>
+                    <li class="list-group-item"><a href="#" class="icon-external">Zipcar</a></li>
+                    <li class="list-group-item"><a href="#" class="icon-external">British Vehicle Rental and Leasing Association (BVLRA)</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
