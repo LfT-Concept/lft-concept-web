@@ -77,6 +77,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: .25rem; }
   .barebones .minw-12 {
     min-width: 12rem; }
+  .barebones .hgt-1 {
+    height: 1rem; }
+  .barebones .hgt-3 {
+    height: 3rem; }
+  .barebones .hgt-10 {
+    height: 10rem; }
+  .barebones .btn-textwrap {
+    white-space: normal !important;
+    word-wrap: break-word; }
   .barebones h1[class*="icon-"] {
     padding-right: 5rem;
     position: relative; }
@@ -117,6 +126,8 @@ h1, h2, h3, h4, h5, h6 {
       right: 0rem; }
     .barebones .list-group-item a[class*="icon-"] span {
       padding-right: 2rem; }
+    .barebones .list-group-item a[class*="icon-sm-"]:after {
+      font-family: "Font Awesome 5 Brands"; }
     .barebones .list-group-item a.icon-internal:after {
       content: "\f105";
       right: .4rem; }
@@ -125,22 +136,34 @@ h1, h2, h3, h4, h5, h6 {
     .barebones .list-group-item a.icon-download:after {
       content: "\f019";
       right: .2rem; }
+    .barebones .list-group-item a.icon-sm-twitter:after {
+      content: "\f099";
+      right: .2rem; }
+    .barebones .list-group-item a.icon-sm-facebook:after {
+      content: "\f082";
+      right: .2rem; }
+    .barebones .list-group-item a.icon-sm-instagram:after {
+      content: "\f16d";
+      right: .2rem; }
   .barebones .alert {
     border-left-width: 0.45rem; }
-  .barebones .card, .barebones .card-dark, .barebones .card-bakerloo, .barebones .card-central, .barebones .card-circle, .barebones .card-district, .barebones .card-hammersmithcity, .barebones .card-jubilee, .barebones .card-metropolitan, .barebones .card-northern, .barebones .card-piccadilly, .barebones .card-victoria, .barebones .card-waterloocity, .barebones .card-overground, .barebones .card-dlr, .barebones .card-tram, .barebones .card-tflrail {
+  .barebones .card, .barebones .card-visitor, .barebones .card-dark, .barebones .card-bakerloo, .barebones .card-central, .barebones .card-circle, .barebones .card-district, .barebones .card-hammersmithcity, .barebones .card-jubilee, .barebones .card-metropolitan, .barebones .card-northern, .barebones .card-piccadilly, .barebones .card-victoria, .barebones .card-waterloocity, .barebones .card-overground, .barebones .card-dlr, .barebones .card-tram, .barebones .card-tflrail {
     margin-bottom: 1rem;
     background-color: #eeeeee;
+    border: 0rem;
     border-bottom: 0.25rem solid #cccccc; }
-    .barebones .card.card-link a, .barebones .card-link.card-dark a, .barebones .card-link.card-bakerloo a, .barebones .card-link.card-central a, .barebones .card-link.card-circle a, .barebones .card-link.card-district a, .barebones .card-link.card-hammersmithcity a, .barebones .card-link.card-jubilee a, .barebones .card-link.card-metropolitan a, .barebones .card-link.card-northern a, .barebones .card-link.card-piccadilly a, .barebones .card-link.card-victoria a, .barebones .card-link.card-waterloocity a, .barebones .card-link.card-overground a, .barebones .card-link.card-dlr a, .barebones .card-link.card-tram a, .barebones .card-link.card-tflrail a {
+    .barebones .card.card-link a, .barebones .card-link.card-visitor a, .barebones .card-link.card-dark a, .barebones .card-link.card-bakerloo a, .barebones .card-link.card-central a, .barebones .card-link.card-circle a, .barebones .card-link.card-district a, .barebones .card-link.card-hammersmithcity a, .barebones .card-link.card-jubilee a, .barebones .card-link.card-metropolitan a, .barebones .card-link.card-northern a, .barebones .card-link.card-piccadilly a, .barebones .card-link.card-victoria a, .barebones .card-link.card-waterloocity a, .barebones .card-link.card-overground a, .barebones .card-link.card-dlr a, .barebones .card-link.card-tram a, .barebones .card-link.card-tflrail a {
       color: inherit;
       text-decoration: none; }
-    .barebones .card.card-link:hover, .barebones .card-link.card-dark:hover, .barebones .card-link.card-bakerloo:hover, .barebones .card-link.card-central:hover, .barebones .card-link.card-circle:hover, .barebones .card-link.card-district:hover, .barebones .card-link.card-hammersmithcity:hover, .barebones .card-link.card-jubilee:hover, .barebones .card-link.card-metropolitan:hover, .barebones .card-link.card-northern:hover, .barebones .card-link.card-piccadilly:hover, .barebones .card-link.card-victoria:hover, .barebones .card-link.card-waterloocity:hover, .barebones .card-link.card-overground:hover, .barebones .card-link.card-dlr:hover, .barebones .card-link.card-tram:hover, .barebones .card-link.card-tflrail:hover {
+    .barebones .card.card-link:hover, .barebones .card-link.card-visitor:hover, .barebones .card-link.card-dark:hover, .barebones .card-link.card-bakerloo:hover, .barebones .card-link.card-central:hover, .barebones .card-link.card-circle:hover, .barebones .card-link.card-district:hover, .barebones .card-link.card-hammersmithcity:hover, .barebones .card-link.card-jubilee:hover, .barebones .card-link.card-metropolitan:hover, .barebones .card-link.card-northern:hover, .barebones .card-link.card-piccadilly:hover, .barebones .card-link.card-victoria:hover, .barebones .card-link.card-waterloocity:hover, .barebones .card-link.card-overground:hover, .barebones .card-link.card-dlr:hover, .barebones .card-link.card-tram:hover, .barebones .card-link.card-tflrail:hover {
       background-color: #eff6fd;
       border-bottom-color: #2070b0; }
-      .barebones .card.card-link:hover .card-body, .barebones .card-link.card-dark:hover .card-body, .barebones .card-link.card-bakerloo:hover .card-body, .barebones .card-link.card-central:hover .card-body, .barebones .card-link.card-circle:hover .card-body, .barebones .card-link.card-district:hover .card-body, .barebones .card-link.card-hammersmithcity:hover .card-body, .barebones .card-link.card-jubilee:hover .card-body, .barebones .card-link.card-metropolitan:hover .card-body, .barebones .card-link.card-northern:hover .card-body, .barebones .card-link.card-piccadilly:hover .card-body, .barebones .card-link.card-victoria:hover .card-body, .barebones .card-link.card-waterloocity:hover .card-body, .barebones .card-link.card-overground:hover .card-body, .barebones .card-link.card-dlr:hover .card-body, .barebones .card-link.card-tram:hover .card-body, .barebones .card-link.card-tflrail:hover .card-body {
+      .barebones .card.card-link:hover .card-body, .barebones .card-link.card-visitor:hover .card-body, .barebones .card-link.card-dark:hover .card-body, .barebones .card-link.card-bakerloo:hover .card-body, .barebones .card-link.card-central:hover .card-body, .barebones .card-link.card-circle:hover .card-body, .barebones .card-link.card-district:hover .card-body, .barebones .card-link.card-hammersmithcity:hover .card-body, .barebones .card-link.card-jubilee:hover .card-body, .barebones .card-link.card-metropolitan:hover .card-body, .barebones .card-link.card-northern:hover .card-body, .barebones .card-link.card-piccadilly:hover .card-body, .barebones .card-link.card-victoria:hover .card-body, .barebones .card-link.card-waterloocity:hover .card-body, .barebones .card-link.card-overground:hover .card-body, .barebones .card-link.card-dlr:hover .card-body, .barebones .card-link.card-tram:hover .card-body, .barebones .card-link.card-tflrail:hover .card-body {
         border-right: 2rem solid #2070b0; }
-    .barebones .card.card-link .card-body, .barebones .card-link.card-dark .card-body, .barebones .card-link.card-bakerloo .card-body, .barebones .card-link.card-central .card-body, .barebones .card-link.card-circle .card-body, .barebones .card-link.card-district .card-body, .barebones .card-link.card-hammersmithcity .card-body, .barebones .card-link.card-jubilee .card-body, .barebones .card-link.card-metropolitan .card-body, .barebones .card-link.card-northern .card-body, .barebones .card-link.card-piccadilly .card-body, .barebones .card-link.card-victoria .card-body, .barebones .card-link.card-waterloocity .card-body, .barebones .card-link.card-overground .card-body, .barebones .card-link.card-dlr .card-body, .barebones .card-link.card-tram .card-body, .barebones .card-link.card-tflrail .card-body {
+    .barebones .card.card-link .card-body, .barebones .card-link.card-visitor .card-body, .barebones .card-link.card-dark .card-body, .barebones .card-link.card-bakerloo .card-body, .barebones .card-link.card-central .card-body, .barebones .card-link.card-circle .card-body, .barebones .card-link.card-district .card-body, .barebones .card-link.card-hammersmithcity .card-body, .barebones .card-link.card-jubilee .card-body, .barebones .card-link.card-metropolitan .card-body, .barebones .card-link.card-northern .card-body, .barebones .card-link.card-piccadilly .card-body, .barebones .card-link.card-victoria .card-body, .barebones .card-link.card-waterloocity .card-body, .barebones .card-link.card-overground .card-body, .barebones .card-link.card-dlr .card-body, .barebones .card-link.card-tram .card-body, .barebones .card-link.card-tflrail .card-body {
       border-right: 2rem solid #eeeeee; }
+  .barebones .card-visitor {
+    border-bottom-color: #dc006b; }
   .barebones .card-dark {
     color: #eff6fd;
     background-color: #2d3039;
