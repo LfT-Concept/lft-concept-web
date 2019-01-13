@@ -5,6 +5,7 @@
 .card {
   margin-bottom: 1rem;
   background-color: $gallery;
+  border: 0rem;
   border-bottom: .25rem solid $silver;
   &.card-link {
     a {
@@ -22,6 +23,11 @@
       border-right: 2rem solid $gallery;
     }
   }
+}
+
+.card-visitor {
+  @extend .card;
+  border-bottom-color: $razzmatazz;
 }
 
 .card-dark {
