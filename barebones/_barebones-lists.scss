@@ -34,10 +34,20 @@
     }
   }  
 
+  a[class*="icon-sm-"] {
+  
+    &:after {
+      font-family: "Font Awesome 5 Brands";
+    }
+  }  
+
   a {
     &.icon-internal:after { content: "\f105"; right: .4rem; }
     &.icon-external:after { content: "\f35d";  }
     &.icon-download:after { content: "\f019"; right: .2rem;  }
+    &.icon-sm-twitter:after { content: "\f099"; right: .2rem;  }
+    &.icon-sm-facebook:after { content: "\f082"; right: .2rem;  }
+    &.icon-sm-instagram:after { content: "\f16d"; right: .2rem;  }
   }
 }
 
