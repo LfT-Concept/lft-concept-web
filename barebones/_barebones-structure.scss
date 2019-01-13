@@ -78,3 +78,15 @@ ul.links {
 .minw-12 {
   min-width: 12rem;
 }
+
+.hgt-1 { height: 1rem; }
+.hgt-3 { height: 3rem; }
+.hgt-10 { height: 10rem; }
+
+// all button text to wrap, very useful when long button text and need to be responsive
+// normally used in conjunction with w-100
+.btn-textwrap {
+  white-space:normal !important;
+  word-wrap: break-word; 
+}
+
