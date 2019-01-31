@@ -115,8 +115,7 @@ h1, h2, h3, h4, h5, h6 {
       pointer-events: auto;
       position: relative;
       width: 100% !important;
-      display: block !important;
-      color: #2070b0; }
+      display: block !important; }
       .barebones .list-group-item a:hover {
         text-decoration: none; }
     .barebones .list-group-item a[class*="icon-"]:after {
