@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%; }
   .barebones ul.links {
     list-style-type: none;
-    padding-inline-start: 0; }
+    padding: 0; }
     .barebones ul.links li {
       padding-bottom: .35rem; }
       .barebones ul.links li a {
@@ -292,5 +292,3 @@ h1, h2, h3, h4, h5, h6 {
       background-color: #020931; }
     .barebones .card-tflrail.card-link .card-body {
       border-right-color: #0019a8; }
-
-/*# sourceMappingURL=barebones.css.map */
